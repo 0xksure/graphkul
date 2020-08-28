@@ -1,0 +1,9 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: graphql123
+      POSTGRES_USER: postgres
+      POSTGRES_DB: graphql
